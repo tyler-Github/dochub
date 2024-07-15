@@ -95,9 +95,8 @@ function createMarkdownFiles(folderPath) {
 // Function to create config.json
 function createConfigFile(filePath) {
   const configData = {
-    title: 'Documentation Project',
-    description: 'Sample documentation project configuration'
-    // Add more configuration as needed
+    title: 'DocHub Project',
+    description: "Change this to your description!"
   };
 
   fs.writeFileSync(filePath, JSON.stringify(configData, null, 2));
@@ -152,6 +151,7 @@ function initializeNpm(projectPath) {
       start: 'node server.js'
     },
     keywords: [],
+    "main": "server.js",
     author: '',
     license: 'ISC'
   };
@@ -169,7 +169,7 @@ function initializeNpm(projectPath) {
 
 // Function to install necessary packages
 function installPackages(projectPath) {
-  const dependencies = ['http', 'fs', 'path', 'highlight.js', 'socket.io']; // Add more dependencies as needed
+  const dependencies = ['http', 'fs', 'path', 'highlight.js', 'socket.io']; 
 
   animatedLog(`✔ Installing packages: ${dependencies.join(', ')}`, 50);
   const progressBar = createProgressBar(20);
