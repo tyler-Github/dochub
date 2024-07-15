@@ -45,7 +45,7 @@ The project structure includes:
 
 ## Getting Help
 
-If you encounter any issues or have questions about using DocHub, feel free to reach out via [GitHub Issues](https://github.com/your-repo/issues).
+If you encounter any issues or have questions about using DocHub, feel free to reach out via [GitHub Issues](https://github.com/tyler-Github/dochub/issues).
 
 ## License
 
